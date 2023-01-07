@@ -1,0 +1,302 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    color:rgb(0, 0, 0);
+} */
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    
+}
+#main{
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+    background-color:rgb(255, 255, 255);
+}
+
+
+h1{
+    color:rgb(0, 0, 0);
+}
+
+h4{
+    color:rgb(0, 0, 0);
+}
+
+
+
+/*-------------------------------------Begin head------------------------------------------------*/
+
+#header{
+    width: 100%;
+    height: 160px;
+    background-color:rgb(0, 0, 0);
+    top: 0;
+    left: 0;
+    
+    
+}
+
+/*------------------------------search-box-and-logo------------------------------------*/
+#search-box-and-logo{
+    /* text-align: center;
+  border: 3px solid green; */
+    z-index: 3;
+    width: 100%;
+    height: 100px;
+    margin: 0px auto;
+    background-color:rgb(255, 255, 255);
+   /*  border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: black; */
+    position: fixed;
+    top: 0px;
+    box-shadow: 1px 1px 10px rgb(0 0 0 / 60%);
+}
+#logo-web{
+    width: 300px;
+    height: 100px;
+  
+    /* object-fit: contain; */
+    background-color:rgb(255, 255, 255);
+    display:inline-block;
+    left: 40vw;
+    /* margin-left: 40%; */
+    
+    position: absolute
+    
+}
+#search-box{
+    position: relative;
+    margin-top: 28px;
+    
+    padding: 3px 10px 0px 10px;
+    background-color:rgb(255, 255, 255);
+    display: inline-block;
+    float: right;
+    list-style-type: none;
+    overflow: hidden;
+    
+   
+}
+
+
+#search-box  #dang-ky {
+   
+    width: 100px;
+    height:32px ;
+    padding-top: 5px;
+    padding-left: 9px;
+    background-color:rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+
+#search-box  #dang-nhap {
+    width: 110px;
+    height:32px ;
+    padding-top: 5px;
+    padding-left: 9px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color:rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+#search-box  #search {
+    width: 30px;
+    height:30px ;
+    padding-top: 5px;
+    padding-left: 9px;
+    background-color:rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+#search-box  #search a{
+    font-size: 18px;
+    /* background-color: rgb(15, 107, 187); */
+}
+
+
+
+#search-box li{
+    display: inline-block;
+}
+#search-box a{
+    color: black;
+}
+
+#search-box #dang-ky a, #dang-nhap a, #search a {
+    text-decoration: none;
+}
+
+
+
+#search-box li a{
+    display: inline-block;
+    transition: 0.25s;
+    margin-right: 20px;
+}
+
+
+#search-box li a:hover  {
+    /* text-decoration: underline; */
+    transform: scale(1.2);
+    /* font-size: 19px; */
+}
+
+
+
+
+/*-------------------------------nav-menu-bar----------------------------------*/
+
+#nav-menu-bar{
+    
+    width: 100%;
+    height: 60px;
+    background-color:rgb(255, 255, 255);
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: rgb(0, 0, 0);
+    padding-top: 0px;
+    padding-left: 10%;
+    margin: 0px auto;
+    overflow: hidden; 
+    position:relative;
+    top: 100px;
+    z-index: 1;
+}
+#menu-bar {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+}
+
+
+#menu-bar li{
+    overflow: hidden; 
+    background-color:rgb(255, 255, 255);
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 7px;
+    width: auto;
+    text-align: center; 
+}
+
+#menu-bar li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 17px;
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);  
+}
+
+
+
+
+
+#topic-1{
+    width: 64px;
+    height: 35px;
+    overflow: hidden;
+    
+}
+
+#topic-2{
+    width: 69px;
+    height: 35px;
+    overflow: hidden;
+    
+}
+#topic-3{
+    width: 63px;
+    height: 35px;
+    overflow: hidden;
+    
+}
+#topic-4{
+    width: 89px;
+    height: 35px;
+    overflow: hidden;
+    
+}
+#topic-5{
+    width: 80px;
+    height: 35px;
+    overflow: hidden;
+    
+}
+#topic-6{
+    width: 73px;
+    height: 35px;
+    overflow: hidden;
+    
+}
+#topic-7{
+    width: 88px;
+    height: 35px;
+    overflow: hidden;
+    
+}
+#topic-8{
+    width: 84px;
+    height: 35px;
+    overflow: hidden;
+    
+}
+#topic-9{
+    width: 36px;
+    height: 35px;
+    overflow: hidden;
+    
+}
+#topic-10{
+    width: 79px;
+    height: 35px;
+    overflow: hidden;
+    
+}
+
+#topic-11{
+    width: 65px;
+    height: 35px;
+    overflow: hidden;
+    
+}
+#topic-12{
+    width: 83px;
+    height: 35px;
+    margin-right: 20px;
+    overflow: hidden;
+    
+}
+
+
+#menu-bar li a{
+    display: inline-block;
+    transition: 0.25s;
+}
+
+#menu-bar li a:hover  {
+    text-decoration: underline;
+    transform: scale(1.2);
+    /* font-size: 19px; */
+}
+
+
+#menu-bar li a:active {
+    color:rgb(55, 86, 199);
+}
+

@@ -1,0 +1,736 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    
+}
+#main{
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+    background-color:rgb(255, 255, 255);
+}
+
+.content-container{
+    padding-top: 50px;
+    height: auto;
+    top: 0;
+    margin: 0px auto;
+    max-width: 960px;
+    overflow: hidden;
+    background-color:rgb(255, 255, 255);
+
+}
+
+/*------------------------------------------------genre-------------------------------------*/
+
+.genre{
+    width: 80%;
+    height: auto;
+    background-color:rgb(255, 255, 255);
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(82, 82, 82);
+}
+
+.genre a{
+    text-decoration: none;
+    
+    
+}
+
+.genre a h2{
+    color:rgb(255, 255, 255);
+    background-color:rgb(82, 82, 82);
+    display: inline-block;
+    padding: 6px;
+}
+
+.genre a h2:hover{
+    background-color:rgb(117, 117, 117);
+}
+
+
+/*-----------------------------------------------content-container-1---------------------*/
+
+.content-container-1{
+    width: 100%;
+    height: auto;
+    margin-top: 2%;
+    background-color:rgb(255, 255, 255);
+    display: flex;
+}
+
+
+
+
+
+/*--------------------------------------------main-content-------------------------------*/
+.main-content{
+    width: 60%;
+    height:500px;
+    background-color:rgb(255, 255, 255);
+    
+}
+
+.img-1{
+    width: 100%;
+    height: 68%;
+    background-color:rgb(255, 255, 255);
+    overflow: hidden;
+} 
+
+.img-1 a img{
+    width: 100%;
+    height: 100%;
+    transition: 1.5s
+}
+
+.img-1 a img:hover{
+    transform: scale(1.1);
+}
+
+
+.title-1{
+    width: 100%;
+    height: 32%;
+    background-color:rgb(255, 255, 255);
+}
+.title-1 a{
+    text-decoration: none;
+}
+
+.title-1 a h2{
+    color:rgb(0, 0, 0);
+}
+
+.title-1 a h2:hover{
+    color:rgb(22, 37, 109);
+}
+
+
+
+/*-----------------------------------------------sub-content-1-----------------------------------*/
+.sub-content-1{
+    width: 40%;
+    height:500px;
+    background-color:rgb(255, 255, 255);
+    margin-left: 2%;
+}
+
+.sub-1{
+    width: 100%;
+    height: 30%;
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    
+}
+
+.sub-content-1-2{
+    margin-top:4%;
+}
+
+.sub-content-1-3{
+    margin-top:4%;
+}
+
+
+.sub-1 .imgg{
+    width: 50%;
+    height:75%;
+    background-color:rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+.sub-1 .titlee{
+    width: 50%;
+    height:100%;
+    background-color:rgb(255, 255, 255);
+    padding-left: 3%;
+}
+
+.sub-1 .titlee a{
+    text-decoration: none;
+}
+
+.sub-1 .titlee a span{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+.sub-1 .titlee a span:hover{
+    color:rgb(22, 37, 109);
+}
+
+.sub-1 div a img {
+    width: 100%;
+    height:auto;
+    transition: 1.5s;
+}
+
+.sub-1 div a img:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+/*------------------------------------------------content-container-2---------------------------------------*/
+
+.content-container-2{
+    width: 100%;
+    height: 280px;
+    background-color:rgb(255, 255, 255);
+    margin-top: 5px;
+    display: flex;
+}
+
+.sub-content-2 {
+    width: 32%;
+    height: 100%;
+    background-color:rgb(255, 255, 255);
+}
+
+.sub-content-2-2{
+    margin: 0 2% 0 2%;
+}
+
+.sub-content-2 .imggg{
+    width: 100%;
+    height: 65%;
+    background-color:rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+.sub-content-2 .imggg img{
+    width: 100%;
+    height: auto;
+    transition: 1.5s;
+}
+
+.sub-content-2 .imggg img:hover{
+    transform: scale(1.1);
+}
+
+
+.sub-content-2 .titleee{
+    width: 100%;
+    height:35%;
+    padding-top:4%;
+    background-color:rgb(255, 255, 255);
+}
+
+.sub-content-2 .titleee a{
+    text-decoration: none;
+}
+
+.sub-content-2 .titleee a span{
+    color:black;
+    font-weight: 600;
+}
+
+.sub-content-2 .titleee a span:hover {
+    color:rgb(22, 37, 109);
+}
+
+
+/* .sub-1 div a img {
+    width: 100%;
+    height:auto;
+    transition: 1.5s;
+} */
+
+
+
+/*-----------------------------------------------content-container-3---------------------------------*/
+.content-container-3{
+    width: 100%;
+    height:500px;
+    margin-top:10px;
+    background-color:rgb(255, 255, 255);
+}
+
+/*---------------------------------------------genre-2-------------------------------------*/
+
+.genre-2{
+    width: 80%;
+    height: auto;
+    background-color:rgb(255, 255, 255);
+    border-bottom-width: 2%;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(82, 82, 82);
+}
+
+.genre-2 a{
+    text-decoration: none;
+    
+    
+}
+
+.genre-2 a h2{
+    color:rgb(255, 255, 255);
+    background-color:rgb(82, 82, 82);
+    display: inline-block;
+    padding: 6px;
+}
+
+.genre-2 a h2:hover{
+    background-color:rgb(117, 117, 117);
+}
+
+
+/*------------------------------------------------content-3------------------------------------------*/
+
+.content-3{
+    width: 100%;
+    height: auto;
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    margin-top:2%;
+
+}
+
+.content-container-3-1 {
+    width: 50%;
+    height: auto;
+    background-color:rgb(255, 255, 255)
+}
+
+.content-container-3-1 .content-container-3-1-1 {
+    width: 100%;
+    height:auto;
+    overflow: hidden;
+}
+
+
+
+.content-container-3-1 .content-container-3-1-1 a img{
+    width: 100%;
+    height: auto;
+    transition: 1.5s;
+}
+
+
+.content-container-3-1 .content-container-3-1-1 a img:hover{
+    transform: scale(1.1);
+}
+
+
+.content-container-3-1 .content-container-3-1-2 a{
+    text-decoration: none;
+
+}
+
+.content-container-3-1 .content-container-3-1-2 a h2{
+    color:black;
+}
+
+.content-container-3-1 .content-container-3-1-2 a h2:hover{
+    color:rgb(22, 37, 109);
+}
+
+
+
+.content-container-3-2 {
+    width: 20%;
+    height: auto;
+    background-color:rgb(255, 255, 255);
+    margin: 0 2% 0 2%;
+}
+
+
+.content-container-3-2 .sub{
+    width: 100%;
+    height:50%;
+    background-color:rgb(255, 255, 255);
+}
+
+.content-container-3-2 .sub .i-img{
+    width: 100%;
+    height:52%;
+    background-color:rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+.content-container-3-2 .sub .t-title{
+    width: 100%;
+    height:auto;
+    padding-left:4%;
+    background-color:rgb(255, 255, 255);
+    
+}
+
+.content-container-3-2 .sub .i-img a img{
+    width: 100%;
+    height:auto;
+    transition: 1.5s;
+}
+
+.content-container-3-2 .sub .i-img a img:hover{
+transform: scale(1.1);
+}
+
+.t-title a {
+    text-decoration: none;
+    color:black;
+    font-weight: 600;
+} 
+
+.t-title a span:hover{
+    color:rgb(22, 37, 109);
+}
+
+
+.list {
+    padding-top:6%;
+    padding-left: 3%;
+    width: 100%;
+    height:20%;
+    background-color:rgb(244, 244, 244)
+}
+
+.list a{
+    text-decoration: none;
+    color:black;
+    font-weight: 600;
+}
+
+.list a span:hover{
+    color:rgb(22, 37, 109);
+}
+
+
+.list-2{
+    border-top-width:2px;
+    border-top-style: solid;
+    border-top-color:rgb(130, 130, 130)
+}
+
+.list-3{
+    border-top-width:2px;
+    border-top-style: solid;
+    border-top-color:rgb(130, 130, 130)
+}
+
+.list-4{
+    border-top-width:2px;
+    border-top-style: solid;
+    border-top-color:rgb(130, 130, 130)
+}
+
+
+
+
+.content-container-3-3 {
+    width: 30%;
+    height: auto;
+    background-color:rgb(255, 255, 255)
+}
+
+
+
+
+
+
+/*-----------------------------------------------content-container-4---------------------------------*/
+.content-container-4{
+    width: 100%;
+    height:500px;
+    margin-top:10px;
+    background-color:rgb(255, 255, 255);
+}
+
+/*---------------------------------------------genre-3-------------------------------------*/
+
+.genre-3{
+    width: 80%;
+    height: auto;
+    background-color:rgb(255, 255, 255);
+    border-bottom-width: 2%;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(82, 82, 82);
+}
+
+.genre-3 a{
+    text-decoration: none;
+    
+    
+}
+
+.genre-3 a h2{
+    color:rgb(255, 255, 255);
+    background-color:rgb(82, 82, 82);
+    display: inline-block;
+    padding: 6px;
+}
+
+.genre-3 a h2:hover{
+    background-color:rgb(117, 117, 117);
+}
+
+
+/*------------------------------------------------content-4------------------------------------------*/
+
+
+.content-4{
+    width: 100%;
+    height: auto;
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    margin-top:2%;
+
+}
+
+.content-container-4-1 {
+    width: 50%;
+    height: auto;
+    background-color:rgb(255, 255, 255)
+}
+
+.content-container-4-1 .content-container-4-1-1 {
+    width: 100%;
+    height:auto;
+    overflow: hidden;
+}
+
+
+
+.content-container-4-1 .content-container-4-1-1 a img{
+    width: 100%;
+    height: auto;
+    transition: 1.5s;
+}
+
+
+.content-container-4-1 .content-container-4-1-1 a img:hover{
+    transform: scale(1.1);
+}
+
+
+.content-container-4-1 .content-container-4-1-2 a{
+    text-decoration: none;
+
+}
+
+.content-container-4-1 .content-container-4-1-2 a h2{
+    color:black;
+}
+
+.content-container-4-1 .content-container-4-1-2 a h2:hover{
+    color:rgb(22, 37, 109);
+}
+
+
+
+.content-container-4-2 {
+    width: 20%;
+    height: auto;
+    background-color:rgb(255, 255, 255);
+    margin: 0 2% 0 2%;
+}
+
+
+.content-container-4-2 .sub{
+    width: 100%;
+    height:50%;
+    background-color:rgb(255, 255, 255);
+}
+
+.content-container-4-2 .sub .ii-img{
+    width: 100%;
+    height:52%;
+    background-color:rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+.content-container-4-2 .sub .tt-title{
+    width: 100%;
+    height:auto;
+    padding-left:4%;
+    background-color:rgb(255, 255, 255);
+    
+}
+
+.content-container-4-2 .sub .ii-img a img{
+    width: 100%;
+    height:auto;
+    transition: 1.5s;
+}
+
+.content-container-4-2 .sub .ii-img a img:hover{
+transform: scale(1.1);
+}
+
+.tt-title a {
+    text-decoration: none;
+    color:black;
+    font-weight: 600;
+} 
+
+.tt-title a span:hover{
+    color:rgb(22, 37, 109);
+}
+
+
+.listt {
+    padding-top:6%;
+    padding-left: 3%;
+    width: 100%;
+    height:20%;
+    background-color:rgb(244, 244, 244)
+}
+
+.listt a{
+    text-decoration: none;
+    color:black;
+    font-weight: 600;
+}
+
+.listt a span:hover{
+    color:rgb(22, 37, 109);
+}
+
+
+.list-7{
+    border-top-width:2px;
+    border-top-style: solid;
+    border-top-color:rgb(130, 130, 130)
+}
+
+.list-8{
+    border-top-width:2px;
+    border-top-style: solid;
+    border-top-color:rgb(130, 130, 130)
+}
+
+.list-9{
+    border-top-width:2px;
+    border-top-style: solid;
+    border-top-color:rgb(130, 130, 130)
+}
+
+
+
+
+.content-container-4-3 {
+    width: 30%;
+    height: auto;
+    background-color:rgb(255, 255, 255)
+}
+
+
+
+/*-------------------------------------------------content-5---------------------------------*/
+
+.content-container-5{
+    width: 100%;
+    height:auto;
+    background-color:rgb(255, 255, 255);
+}
+
+
+.genre-4{
+    width: 80%;
+    height: auto;
+    background-color:rgb(255, 255, 255);
+    border-bottom-width: 2%;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(82, 82, 82);
+}
+
+.genre-4 a{
+    text-decoration: none;
+    
+    
+}
+
+.genre-4 a h2{
+    color:rgb(255, 255, 255);
+    background-color:rgb(82, 82, 82);
+    display: inline-block;
+    padding: 6px;
+}
+
+.genre-4 a h2:hover{
+    background-color:rgb(117, 117, 117);
+}
+
+
+
+
+.content-5{
+    width: 100%;
+    height:auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.sub-5{
+    width: 100%;
+    height:220px;
+    margin-top:20px;
+    background-color:rgb(255, 255, 255);
+    display:flex;
+}
+
+.sub-5 .oj-1{
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+    background-color:rgb(255, 255, 255);
+}
+
+.sub-5 .oj-1 a img{
+    width: 100%;
+    height: 100%;
+    transition:1.5s ;
+}
+
+.sub-5 .oj-1 a img:hover{
+    transform: scale(1.1);
+}
+
+
+.sub-5 .oj-2{
+    width: 60%;
+    height: 100%;
+    padding-top:1%;
+    background-color:rgb(255, 255, 255);
+    margin-left: 10px;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: rgb(182, 182, 182);
+}
+
+.sub-5 .oj-2 .sub-text{
+    margin-top:3%
+}
+
+.sub-5 .oj-2 .sub-text span{
+    color:rgb(163, 163, 163);
+}
+
+.sub-5 .oj-2 .text-title a{
+    text-decoration:none;
+}
+
+.sub-5 .oj-2 .text-title a h2{
+    color: black;
+}
+
+.sub-5 .oj-2 .text-title a h2:hover{
+    color:rgb(22, 37, 109);
+}
+
+
+
+
+
+
+
+
